@@ -1150,6 +1150,7 @@ public enum FontAwesome: String, CaseIterable {
     case slash = "fa-slash"
     case sleigh = "fa-sleigh"
     case slidersH = "fa-sliders-h"
+    case slidersV = "fa-sliders-v"
     case slideshare = "fa-slideshare"
     case smile = "fa-smile"
     case smileBeam = "fa-smile-beam"
@@ -1815,7 +1816,7 @@ public enum FontAwesome: String, CaseIterable {
             case .creativeCommonsShare: return "\u{f4f2}"
             case .creativeCommonsZero: return "\u{f4f3}"
             case .creditCard: return "\u{f09d}"
-            case .creditCardBlank: return "\{f389}"
+            case .creditCardBlank: return "\u{f389}"
             case .criticalRole: return "\u{f6c9}"
             case .crop: return "\u{f125}"
             case .cropAlt: return "\u{f565}"
@@ -2614,6 +2615,7 @@ public enum FontAwesome: String, CaseIterable {
             case .slash: return "\u{f715}"
             case .sleigh: return "\u{f7cc}"
             case .slidersH: return "\u{f1de}"
+            case .slidersV: return "\u{f3f1}"
             case .slideshare: return "\u{f1e7}"
             case .smile: return "\u{f118}"
             case .smileBeam: return "\u{f5b8}"
@@ -4081,6 +4083,7 @@ public enum FontAwesome: String, CaseIterable {
             case .slash: return [.solid]
             case .sleigh: return [.solid]
             case .slidersH: return [.solid]
+            case .slidersV: return [.solid]
             case .slideshare: return [.brands]
             case .smile: return [.solid, .regular]
             case .smileBeam: return [.solid, .regular]
