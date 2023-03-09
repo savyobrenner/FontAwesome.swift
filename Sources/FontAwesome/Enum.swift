@@ -351,6 +351,7 @@ public enum FontAwesome: String, CaseIterable {
     case creativeCommonsShare = "fa-creative-commons-share"
     case creativeCommonsZero = "fa-creative-commons-zero"
     case creditCard = "fa-credit-card"
+    case creditCardBlank = "fa-credit-card-blank"
     case criticalRole = "fa-critical-role"
     case crop = "fa-crop"
     case cropAlt = "fa-crop-alt"
@@ -1814,6 +1815,7 @@ public enum FontAwesome: String, CaseIterable {
             case .creativeCommonsShare: return "\u{f4f2}"
             case .creativeCommonsZero: return "\u{f4f3}"
             case .creditCard: return "\u{f09d}"
+            case .creditCardBlank: return "\{f389}"
             case .criticalRole: return "\u{f6c9}"
             case .crop: return "\u{f125}"
             case .cropAlt: return "\u{f565}"
@@ -3280,6 +3282,7 @@ public enum FontAwesome: String, CaseIterable {
             case .creativeCommonsShare: return [.brands]
             case .creativeCommonsZero: return [.brands]
             case .creditCard: return [.solid, .regular]
+            case .creditCardBlank: return [.solid, .regular]
             case .criticalRole: return [.brands]
             case .crop: return [.solid]
             case .cropAlt: return [.solid]
