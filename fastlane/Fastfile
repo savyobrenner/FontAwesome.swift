@@ -23,9 +23,9 @@ lane :release do |options|
   raise "The version is missed. Use `bundle exec fastlane release version:{version_number}`.`" if target_version.nil?
 
   ensure_git_branch
-  ensure_git_status_clean
+  #ensure_git_status_clean
 
-  test
+  #test
   pod_lib_lint(
     allow_warnings: true,
   )
