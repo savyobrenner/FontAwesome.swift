@@ -351,7 +351,6 @@ public enum FontAwesome: String, CaseIterable {
     case creativeCommonsShare = "fa-creative-commons-share"
     case creativeCommonsZero = "fa-creative-commons-zero"
     case creditCard = "fa-credit-card"
-    case creditCardBlank = "fa-credit-card-blank"
     case criticalRole = "fa-critical-role"
     case crop = "fa-crop"
     case cropAlt = "fa-crop-alt"
